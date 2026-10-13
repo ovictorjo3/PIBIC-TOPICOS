@@ -13,6 +13,7 @@
 \pgfplotsset{compat=1.18}
 \usepackage{ragged2e}
 \usetikzlibrary{arrows.meta,positioning}
+
 % !TeX program = xelatex
 
 % ---------- theme settings ----------
@@ -57,9 +58,48 @@
 		\includegraphics[scale=0.3]{imagens/euler.png}
 	\end{frame}
 	
+	\begin{frame}{Demonstração - Método de Euler}
+		\begin{block}{i) Temos}
+			$y_{n+1}=y_{n}+\Delta y$ \\
+		\end{block}
+		\uncover<2- >{
+		\begin{block}{ii) Do conceito de derivada de função, temos:}
+			$f(x_{n},y_{n})=\dfrac{dy}{dx}(x_{n})= \lim_{h\to 0} \dfrac{y(x_{n}+h)-y(x_{n})}{h} = \lim_{h\to 0} \dfrac{\Delta y}{\Delta x}\Rightarrow \Delta y \approx f(x_{n},y_{n})\Delta x$
+		\end{block}
+		}
+		
+		\uncover<3- >{
+		\begin{block}{iii) Aplicando ii) em i), temos:}
+			$y_{n+1}=y_{n}+f(x_{n},y_{n})\Delta x = y_{n}+f(x_{n},y_{n})h$
+		\end{block}
+		}
+		
+		\uncover<4- >{\textcolor{red}{\textit{Fórmula de Euler de Passo Simples}}}
+	\end{frame}
+	
 	\begin{frame}{Aplicação}
 		\justifying
 		Aplique a formulação de Euler e estime o valor de $y(2,1)$ da EDO $xy'=3x-y$ com condição inicial $y(2)=2$ e passo $h=0,1$
+	\end{frame}
+
+	\begin{frame}{Resolução - Método Numérico (Método de Euler)}
+		\begin{block}{i) Reescrevendo a equação em função de $y'$, temos:}
+			$y' = 3-\dfrac{y}{x}$
+		\end{block}
+		
+		\begin{block}{ii) Do enunciado,}
+			Para $x_{0}=2,$ temos $y_{0}=2$ Assim, $f(x_{0},y_{0})=3-1=2$ \\
+			Para $x_{1}=x_{0}+h=2+0,1=2,1.$ temos $y_{1}=y(x_{1})=y(2,1)$ \\
+		\end{block}
+		
+		\begin{block}{iii) De i) e ii), obtemos o valor desejado no enunciado, com isso:}
+			$y_{1}=y_{0}+f(x_{0},y_{0})h$ \\
+			$y_{1}=2+2.(0,1)=2+0,2=2,2$
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}{Resolução - Método Analítico}
+		content...
 	\end{frame}
 	
 	\begin{frame}{Aplicação 2}

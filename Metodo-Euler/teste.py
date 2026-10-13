@@ -22,5 +22,5 @@ for i in np.arange(N-1):
     u[i+1] = u[i] + h*f(t[i],u[i])  
  
 #imprime  
-for i,tt in enumerate(t):  
+for i,erro in enumerate(t):  
     print("%1.1f %1.4f" % (t[i],u[i]))
