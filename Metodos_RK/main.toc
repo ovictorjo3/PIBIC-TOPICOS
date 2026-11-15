@@ -1,4 +1,4 @@
 \babel@toc {brazil}{}\relax 
 \beamer@sectionintoc {1}{Runge-Kutta - 2ª ordem}{3}{0}{1}
 \beamer@sectionintoc {2}{Runge-Kutta - 3ª ordem}{5}{0}{2}
-\beamer@sectionintoc {3}{Referência}{6}{0}{3}
+\beamer@sectionintoc {3}{Referência}{7}{0}{3}

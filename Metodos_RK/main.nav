@@ -14,13 +14,15 @@
 \headcommand {\sectionentry {2}{Runge-Kutta - 3ª ordem}{5}{Runge-Kutta - 3ª ordem}{0}}
 \headcommand {\slideentry {2}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@sectionpages {5}{5}}
-\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\sectionentry {3}{Referência}{6}{Referência}{0}}
-\headcommand {\slideentry {3}{0}{1}{6/6}{}{0}}
+\headcommand {\slideentry {2}{0}{2}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@partpages {1}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\beamer@sectionpages {6}{6}}
-\headcommand {\beamer@documentpages {6}}
-\headcommand {\gdef \inserttotalframenumber {6}}
+\headcommand {\beamer@sectionpages {5}{6}}
+\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\sectionentry {3}{Referência}{7}{Referência}{0}}
+\headcommand {\slideentry {3}{0}{1}{7/7}{}{0}}
+\headcommand {\beamer@framepages {7}{7}}
+\headcommand {\beamer@partpages {1}{7}}
+\headcommand {\beamer@subsectionpages {7}{7}}
+\headcommand {\beamer@sectionpages {7}{7}}
+\headcommand {\beamer@documentpages {7}}
+\headcommand {\gdef \inserttotalframenumber {7}}
