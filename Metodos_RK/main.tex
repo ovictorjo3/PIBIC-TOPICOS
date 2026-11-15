@@ -1,0 +1,76 @@
+\documentclass[12pt]{beamer}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{ragged2e}
+
+\setbeamertemplate{caption}[numbered]
+
+%%%%%%%%%%%%%%%%%%%%%
+
+\author[Joao Victor]{Joao Victor}
+\title[Métodos RK]{Métodos de Runge-Kutta (RK)}
+%\setbeamercovered{transparent} 
+\setbeamertemplate{navigation symbols}{} 
+\institute[]{Instituto Federal do Amazonas} 
+\date{\today} 
+%\titlegraphic{\includegraphics[width=0.25\textwidth]{imagens/estagio.png}}
+
+%\subject{}
+
+% ---------------------------------------------------------
+
+\begin{document}
+
+\justifying
+\onehalfspacing
+
+\maketitle
+
+\begin{frame}{Sumário}
+	\tableofcontents
+\end{frame}
+
+\section{Runge-Kutta - 2ª ordem}
+
+	\begin{frame}{Runge-Kutta - 2ª ordem (RK2)}
+		Considere:
+		\begin{itemize}
+			\item $y' = f(x,y)$;
+			\item $x_{k+1}=x_{k}+h$ e;
+			\item $y_{k+1}=y_{k}+\dfrac{h}{2}\left[ f(x_{k},y_{k})+f(x_{k}+h,y_{k}+hf(x_{k},y_{k}) \right]$
+		\end{itemize}
+	\end{frame}
+	
+	\begin{frame}{Runge-Kutta - 2ª ordem (RK2)}
+		Exemplo
+		\begin{itemize}
+			\item $5y'+y^{2}-24x=0$;
+			\item $y(0)=5$;
+			\item $h=1$;
+			\item $y(2)=?$
+		\end{itemize}
+	\end{frame}
+
+\section{Runge-Kutta - 3ª ordem}
+
+	\begin{frame}{Runge-Kutta - 3ª ordem (RK3)}
+		content...
+	\end{frame}
+\section{Referência}	
+	\begin{frame}{Referencial Teórico}
+		\begin{itemize}
+			\justifying
+			\item GAMA, Larissa Tamys Barroso da. \textit{Escola Bilíngue Gilberto Mestrinho: um estudo de caso}. 2021. 63 f. Dissertação (Mestrado em Letras) -- Universidade Federal do Amazonas, Manaus, 2021.
+		\end{itemize}
+	\end{frame}
+\end{document}
