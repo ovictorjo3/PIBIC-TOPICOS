@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.11.7)  15 NOV 2026 19:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2026.11.7)  16 NOV 2026 18:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,32 +954,33 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 48A2E2B628690F99802A45C09A366CE5;426.
  ) 
 Here is how much of TeX's memory you used:
- 22965 strings out of 469421
- 439014 string characters out of 5467709
+ 22969 strings out of 469421
+ 439053 string characters out of 5467709
  827994 words of memory out of 5000000
- 51145 multiletter control sequences out of 15000+600000
- 640013 words of font info for 70 fonts, out of 8000000 for 9000
+ 51148 multiletter control sequences out of 15000+600000
+ 640784 words of font info for 71 fonts, out of 8000000 for 9000
  61 hyphenation exceptions out of 8191
  101i,16n,107p,401b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
- </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsi0800
+ </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecsx1200
 .600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/ec/ecs
-i1200.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/e
-c/tcss1728.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknap
-pen/ec/tcss0600.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/
-jknappen/ec/tcss1200.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecss0600.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecss0800.600pk> </home/ovictorjo/.texlive2025/texmf-var/f
-onts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/ovictorjo/.texlive2025/texmf-
-var/fonts/pk/ljfour/jknappen/ec/ecss1728.600pk></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb>
-Output written on main.pdf (7 pages, 98566 bytes).
+i0800.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknappen/e
+c/ecsi1200.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/jknap
+pen/ec/tcss1728.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/ljfour/
+jknappen/ec/tcss0600.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/pk/lj
+four/jknappen/ec/tcss1200.600pk> </home/ovictorjo/.texlive2025/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecss0600.600pk> </home/ovictorjo/.texlive2025/texmf-var/f
+onts/pk/ljfour/jknappen/ec/ecss0800.600pk> </home/ovictorjo/.texlive2025/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecss1200.600pk> </home/ovictorjo/.texlive2025/t
+exmf-var/fonts/pk/ljfour/jknappen/ec/ecss1728.600pk></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb>
+Output written on main.pdf (7 pages, 101459 bytes).
 PDF statistics:
- 332 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 345 PDF objects out of 1000 (max. 8388607)
+ 128 compressed objects within 2 object streams
  18 named destinations out of 1000 (max. 500000)
  79 words of extra memory for PDF output out of 10000 (max. 10000000)
 
